@@ -9,7 +9,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfae327-23cc-4d19-a7fa-082f66855395" name="Changes" comment="" />
+    <list default="true" id="5bfae327-23cc-4d19-a7fa-082f66855395" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TextGram/Data/Configurations/AUserConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Data/Configurations/PostConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Data/Repositories/AUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Data/Repositories/PostRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Data/TextGramDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Models/Post/Post.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Models/Users/AUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Models/Users/AUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextGram/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Post/PostController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Controllers/PostController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Post/PostRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Post/PostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Post/PostService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/TextGram.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/TextGram.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/User/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/User/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/User/UserRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/User/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Users/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/ref/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/ref/TextGram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/refint/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/refint/TextGram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,27 +66,65 @@
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RomanVlah7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RomanVlah7/TextGram.git&quot;,
+    &quot;accountId&quot;: &quot;84021ab6-b317-439d-9caf-0c0d59ebda2f&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/vrooo/RiderProjects/TextGram/TextGram/Models/Users/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vrooo/RiderProjects/TextGram/TextGram/Models/Users/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vrooo/RiderProjects/TextGram/TextGram/Models/Users/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://User.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2n3dDAxYZbsV30RB5oO86qx4knG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.TextGram: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.TextGram: http.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.TextGram: http">
     <configuration name="TextGram: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TextGram/TextGram.csproj" />
@@ -96,203 +182,37 @@
       <updated>1728205572373</updated>
       <workItem from="1728205575388" duration="1900000" />
       <workItem from="1728216521493" duration="7383000" />
+      <workItem from="1728232449151" duration="5198000" />
+      <workItem from="1728316386802" duration="3455000" />
+      <workItem from="1728453778926" duration="5200000" />
+      <workItem from="1728488282726" duration="1414000" />
+      <workItem from="1728489741000" duration="6138000" />
+      <workItem from="1728570098523" duration="5250000" />
+      <workItem from="1728590729087" duration="218000" />
+      <workItem from="1728660308322" duration="8666000" />
+      <workItem from="1728740141952" duration="9524000" />
+      <workItem from="1728807362695" duration="6842000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>8</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'AddNewUser'">
-            <startOffsets>
-              <option value="210" />
-            </startOffsets>
-            <endOffsets>
-              <option value="241" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>9</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'AddNewUser'">
-            <startOffsets>
-              <option value="250" />
-            </startOffsets>
-            <endOffsets>
-              <option value="262" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>14</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'GetUserById'">
-            <startOffsets>
-              <option value="329" />
-            </startOffsets>
-            <endOffsets>
-              <option value="369" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>15</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'GetUserById'">
-            <startOffsets>
-              <option value="374" />
-            </startOffsets>
-            <endOffsets>
-              <option value="375" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>13</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'GetUserById'">
-            <startOffsets>
-              <option value="320" />
-            </startOffsets>
-            <endOffsets>
-              <option value="321" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>7</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'AddNewUser'">
-            <startOffsets>
-              <option value="200" />
-            </startOffsets>
-            <endOffsets>
-              <option value="201" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>10</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'AddNewUser'">
-            <startOffsets>
-              <option value="267" />
-            </startOffsets>
-            <endOffsets>
-              <option value="268" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>19</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'DeleteUserById'">
-            <startOffsets>
-              <option value="436" />
-            </startOffsets>
-            <endOffsets>
-              <option value="458" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>20</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'DeleteUserById'">
-            <startOffsets>
-              <option value="467" />
-            </startOffsets>
-            <endOffsets>
-              <option value="502" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>25</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'UpdateUserById'">
-            <startOffsets>
-              <option value="586" />
-            </startOffsets>
-            <endOffsets>
-              <option value="608" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>26</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'UpdateUserById'">
-            <startOffsets>
-              <option value="617" />
-            </startOffsets>
-            <endOffsets>
-              <option value="652" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>30</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'GetAllUsers'">
-            <startOffsets>
-              <option value="706" />
-            </startOffsets>
-            <endOffsets>
-              <option value="707" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>31</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'GetAllUsers'">
-            <startOffsets>
-              <option value="716" />
-            </startOffsets>
-            <endOffsets>
-              <option value="746" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TextGram/User/UserRepository.cs</url>
-          <line>32</line>
-          <properties documentPath="C:\Users\vrooo\RiderProjects\TextGram\TextGram\User\UserRepository.cs" containingFunctionPresentation="Method 'GetAllUsers'">
-            <startOffsets>
-              <option value="751" />
-            </startOffsets>
-            <endOffsets>
-              <option value="752" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

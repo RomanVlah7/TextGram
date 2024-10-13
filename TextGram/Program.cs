@@ -1,7 +1,24 @@
+using System.Configuration;
+using Microsoft.AspNetCore.HttpLogging;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddHttpLogging(o => { });
+builder.Services.AddHttpLogging(logging =>
+{
+    logging.LoggingFields = HttpLoggingFields.All;
+    logging.RequestHeaders.Add("sec-ch-ua");
+    logging.ResponseHeaders.Add("MyResponseHeader");
+    logging.MediaTypeOptions.AddText("application/javascript");
+    logging.RequestBodyLogLimit = 4096;
+    logging.ResponseBodyLogLimit = 4096;
+    logging.CombineLogs = true;
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<TextGramDbContext>(options =>
+{
+    options.UseNpgsql(connectionString: builder.Configuration.GetConnectionString(nameof(TextGramDbContext)));
+});
 
 var app = builder.Build();
 app.UseHttpLogging();

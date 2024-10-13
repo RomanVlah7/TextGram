@@ -1,4 +1,4 @@
-﻿namespace TextGram.Post;
+﻿namespace User;
 
 public class PostController
 {
