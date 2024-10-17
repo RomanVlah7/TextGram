@@ -6,16 +6,14 @@ public class Post
 {
     [Key]private long _postId;
     private string _textOfPost;
-    private AUserDto _author;
+    private long _authorId;
 
-    public Post(long postId, string textOfPost, AUserDto author)
+    public Post(long postId, string textOfPost, long authorId)
     {
         _postId = postId;
         _textOfPost = textOfPost;
-        _author = author;
+        _authorId = authorId;
     }
-
-    
 
     public long PostId
     {
@@ -29,9 +27,9 @@ public class Post
         set => _textOfPost = value ?? throw new ArgumentNullException(nameof(value));
     }
 
-    public AUserDto Author
+    public long AuthorId
     {
-        get => _author;
-        set => _author = value ?? throw new ArgumentNullException(nameof(value));
+        get => _authorId;
+        set => _authorId = value;
     }
 }

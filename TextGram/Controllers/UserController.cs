@@ -9,7 +9,7 @@ public class UserController(UserService userService) : ControllerBase
 {
     //-------------------HttpGet------------
     [HttpGet("get-user-by-id")]
-    public async Task<ActionResult<AUser>> GetUserById([FromHeader]int userId)
+    public async Task<ActionResult<AUser>> GetUserById([FromHeader]long userId)
     {
         var user = await userService.GetUserByIdAsync(userId);
     
@@ -17,35 +17,34 @@ public class UserController(UserService userService) : ControllerBase
         {
             return NotFound();
         }
-
+        
         return Ok(user);
     }
     
     [HttpGet("get-all-users")]
     public ActionResult<List<AUser>> GetAllUsers()
     {
-        return userService.GetAllUsersAsync();
+        return userService.GetAllUsers();
     }
 
     //--------------HttpPost-------------
-
     [HttpPost("add-new-user")]
-    public ActionResult<AUser> AddNewUser([FromBody]AUser? user)
+    public async Task AddNewUser([FromBody]AUser user)
     {
-        return userService.AddNewUserAsync(user);
+        await userService.AddNewUserAsync(user);
     }
 
     //----------------HttpDelete---------
     [HttpDelete("delete-user-by-id")]
-    public ActionResult<string> DeleteUserById([FromHeader]int userId)
+    public Task DeleteUserById([FromHeader]long userId)
     {
         return userService.DeleteUserByIdAsync(userId);
     }
     
     //---------------HttpPut---------------
     [HttpPut("update-user-by-id")]
-    public ActionResult<string> UpdateUserById(int userId, AUser? user)
-    {
-        return userService.UpdateUserByIdAsync(userId, user);
+    public async Task UpdateUserById([FromBody] AUser user)
+    { 
+        await userService.UpdateUserByIdAsync(user);
     }
 }

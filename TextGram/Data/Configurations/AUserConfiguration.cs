@@ -8,7 +8,6 @@ public class AUserConfiguration : IEntityTypeConfiguration<AUser>
     public void Configure(EntityTypeBuilder<AUser> builder)
     {
         builder.HasKey(a => a.UserId);
-        builder.HasMany(typeof(Post));
         
         builder.Property(a => a.Email).IsRequired();
         builder.Property(a => a.FirstName).IsRequired();
@@ -16,6 +15,5 @@ public class AUserConfiguration : IEntityTypeConfiguration<AUser>
         builder.Property(a => a.UserPassword).IsRequired();
         builder.Property(a => a.UserDescription);
     }
-
-
+    
 }

@@ -1,6 +1,8 @@
 using System.Configuration;
 using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.EntityFrameworkCore;
+using TextGram.Data.Repositories;
+using User;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpLogging(logging =>
@@ -15,6 +17,11 @@ builder.Services.AddHttpLogging(logging =>
 });
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<AUserRepository>();
+builder.Services.AddScoped<PostRepository>();
+builder.Services.AddScoped<PostService>();
 builder.Services.AddDbContext<TextGramDbContext>(options =>
 {
     options.UseNpgsql(connectionString: builder.Configuration.GetConnectionString(nameof(TextGramDbContext)));

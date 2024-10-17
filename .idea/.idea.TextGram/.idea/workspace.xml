@@ -10,53 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bfae327-23cc-4d19-a7fa-082f66855395" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TextGram/Data/Configurations/AUserConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Data/Configurations/PostConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Data/Repositories/AUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Data/Repositories/PostRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Data/TextGramDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Models/Post/Post.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Models/Users/AUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Models/Users/AUserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextGram/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextGram/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/Post/PostController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Controllers/PostController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/Post/PostRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/Post/PostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Post/PostService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Controllers/PostController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Controllers/PostController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Data/Configurations/AUserConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Data/Configurations/AUserConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Data/Configurations/PostConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Data/Configurations/PostConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Data/Repositories/AUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Data/Repositories/AUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Data/Repositories/PostRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Data/Repositories/PostRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Data/TextGramDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Data/TextGramDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Models/Post/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Post/Post.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Models/Post/PostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Post/PostService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Models/Users/AUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Users/AUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Models/Users/AUserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Users/AUserDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Models/Users/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Users/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/TextGram.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/TextGram.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/User/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/User/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/User/UserRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/User/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/Models/Users/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextGram/Startup.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/TextGram.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/TextGram.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/ref/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/ref/TextGram.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/refint/TextGram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/Debug/net8.0/refint/TextGram.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/TextGram.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextGram/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TextGram/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +61,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/vrooo/RiderProjects/TextGram/TextGram/Models/Users/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vrooo/RiderProjects/TextGram/TextGram/Models/Users/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vrooo/RiderProjects/TextGram/TextGram/Models/Users/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/a93be560c5ce4f099b348a512740a55417600/84/593e2320/02000005pdb19.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TextGram/Models/Users/AUserDto.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -191,8 +168,24 @@
       <workItem from="1728590729087" duration="218000" />
       <workItem from="1728660308322" duration="8666000" />
       <workItem from="1728740141952" duration="9524000" />
-      <workItem from="1728807362695" duration="6842000" />
+      <workItem from="1728807362695" duration="10665000" />
+      <workItem from="1728855241612" duration="777000" />
+      <workItem from="1728908651022" duration="12276000" />
+      <workItem from="1729005879892" duration="8863000" />
+      <workItem from="1729061225837" duration="536000" />
+      <workItem from="1729105141308" duration="605000" />
+      <workItem from="1729147288129" duration="3025000" />
+      <workItem from="1729176878226" duration="943000" />
     </task>
+    <task id="LOCAL-00001" summary="was added integration with database">
+      <option name="closed" value="true" />
+      <created>1728814475444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728814475444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,5 +207,11 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="was added integration with database" />
+    <option name="LAST_COMMIT_MESSAGE" value="was added integration with database" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

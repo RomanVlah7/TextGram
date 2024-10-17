@@ -9,12 +9,12 @@ public class UserService(AUserRepository userRepository)
         await userRepository.AddNewUserAsync(user);
     }
 
-    public Task<List<AUser>> GetUserByIdAsync(int userId)
+    public Task<List<AUser>> GetUserByIdAsync(long userId)
     {
         return userRepository.GetUserByIdAsync(userId);
     }
 
-    public async Task DeleteUserByIdAsync(int userId)
+    public async Task DeleteUserByIdAsync(long userId)
     {
         await userRepository.DeleteUserAsync(userId);
         
@@ -25,7 +25,7 @@ public class UserService(AUserRepository userRepository)
         await userRepository.UpdateUserAsync(user);
     }
 
-    public List<AUser> GetAllUsersAsync()
+    public List<AUser> GetAllUsers()
     {
         return userRepository.GetUsersAsync().Result;
     }

@@ -1,26 +1,25 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-public class AUser
+public class AUser(
+    long userId,
+    string firstName,
+    string lastName,
+    string email,
+    string userState,
+    string userPassword,
+    string userLogin,
+    string userDescription)
 {
-    [Key] private int _userId;
-    private string _firstName;
-    private string _lastName;
-    private string _email;
-    private string _userState;
-    private string _userPassword;
-    private string _userLogin;
-    private string _userDescription;
+    [Key] private long _userId = userId;
+    private string _firstName = firstName;
+    private string _lastName = lastName;
+    private string _email = email;
+    private string _userState = userState;
+    private string _userPassword = userPassword;
+    private string _userLogin = userLogin;
+    private string _userDescription = userDescription;
 
-    public AUser(int userId, string firstName, string lastName, string email, string userState, string userPassword, string userLogin)
-    {
-        _userId = userId;
-        _firstName = firstName;
-        _lastName = lastName;
-        _email = email;
-        _userState = userState;
-        _userPassword = userPassword;
-        _userLogin = userLogin;
-    }
+ 
 
     public string UserDescription
     {
@@ -28,7 +27,7 @@ public class AUser
         set => _userDescription = value ?? throw new ArgumentNullException(nameof(value));
     }
 
-    public int UserId
+    public long UserId
     {
         get => _userId;
         set => _userId = value;

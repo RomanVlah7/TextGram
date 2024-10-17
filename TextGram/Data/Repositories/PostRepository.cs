@@ -4,46 +4,40 @@ using Microsoft.EntityFrameworkCore.Query;
 
 namespace TextGram.Data.Repositories;
 
-public class PostRepository
+public class PostRepository(TextGramDbContext dbContext)
 {
-    private readonly TextGramDbContext _dbContext;
-
-    public PostRepository(TextGramDbContext dbContext)
+    public async Task<List<Post>> GetAllPostsAsync()
     {
-        _dbContext = dbContext;
+        return await dbContext.Posts.AsNoTracking().ToListAsync();
     }
 
-    public async Task<List<Post>> GetPostsAsync()
+    public async Task<List<Post>> GetPostAsync(long postId)
     {
-        return await _dbContext.Posts.AsNoTracking().ToListAsync();
-    }
-
-    public async Task<List<Post>> GetPostAsync(int postId)
-    {
-        return await _dbContext.Posts
+        return await dbContext.Posts
+            .AsNoTracking()
             .Where(post => post.PostId == postId)
             .ToListAsync();
     }
 
     public async Task AddNewPostAsync(Post post)
     {
-        await _dbContext.Posts.AddAsync(post);
-        await _dbContext.SaveChangesAsync();
+        await dbContext.Posts.AddAsync(post);
+        await dbContext.SaveChangesAsync();
     }
 
     public async Task UpdatePostAsync(Post updatedPost)
     {
-        await _dbContext.Posts
+        await dbContext.Posts
             .ExecuteUpdateAsync(s => s
                 .SetProperty(x => x.PostId, updatedPost.PostId)
                 .SetProperty(x => x.TextOfPost, updatedPost.TextOfPost)
-                .SetProperty(x => x.Author, updatedPost.Author)
+                .SetProperty(x => x.AuthorId, updatedPost.AuthorId)
             );
     }
 
-    public async Task DeletePostAsync(int postId)
+    public async Task DeletePostAsync(long postId)
     {
-        await _dbContext.Posts
+        await dbContext.Posts
             .Where( p => p.PostId == postId)
             .ExecuteDeleteAsync();
     }

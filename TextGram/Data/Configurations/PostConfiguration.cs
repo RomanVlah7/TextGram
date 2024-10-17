@@ -9,7 +9,9 @@ public class PostConfiguration : IEntityTypeConfiguration<Post>
     {
         builder.HasKey(a => a.PostId);
         builder.Property(a => a.TextOfPost).IsRequired();
-        builder.Property(a => a.Author).IsRequired();
-        builder.HasOne<AUser>();
+        builder.Property(a => a.AuthorId).IsRequired();
+        builder.HasOne<AUser>()
+            .WithMany()
+            .HasForeignKey(p => p.AuthorId);
     }
 }

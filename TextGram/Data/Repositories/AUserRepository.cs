@@ -22,15 +22,14 @@ public class AUserRepository
     {
         return await _dbContext.Posts
             .AsNoTracking()
-            .Where(post => post.Author.UserId == userId)
-            .Include(post => post.Author)
+            .Where(post => post.AuthorId == userId)
             .ToListAsync();
     }
     
     public async Task<List<Post>> GetUserWithPotsAsyncWay2(long userId)
     {
         var query = _dbContext.Posts.AsNoTracking();
-        query = query.Where( post => post.Author.UserId == userId);
+        query = query.Where( post => post.AuthorId == userId);
         return await query.ToListAsync();
     }
 
@@ -52,6 +51,7 @@ public class AUserRepository
     {
         await _dbContext.Users
             .ExecuteUpdateAsync(s => s
+                .SetProperty(u => u.UserId, updatedUser.UserId)
                 .SetProperty(u => u.FirstName, updatedUser.FirstName)
                 .SetProperty(u => u.LastName, updatedUser.LastName)
                 .SetProperty(u => u.Email, updatedUser.Email)
@@ -59,7 +59,6 @@ public class AUserRepository
                 .SetProperty(u => u.UserPassword, updatedUser.UserPassword)
                 .SetProperty(u => u.UserLogin, updatedUser.UserLogin)
                 .SetProperty(u => u.UserDescription, updatedUser.UserDescription)
-                .SetProperty(u => u.Email, updatedUser.Email)
             );
     }
 

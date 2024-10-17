@@ -9,6 +9,15 @@ public class AUserDto
     private string _userState;
     private string _userDescription;
 
+    public AUserDto(int userId, string firstName, string lastName, string email, string userState)
+    {
+        _userId = userId;
+        _firstName = firstName;
+        _lastName = lastName;
+        _email = email;
+        _userState = userState;
+    }
+
     public int UserId
     {
         get => _userId;
